@@ -1,0 +1,23 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/contact/page": "app/contact/page.js",
+  "/equipment-monitoring/page": "app/equipment-monitoring/page.js",
+  "/equipment-health-analytics/page": "app/equipment-health-analytics/page.js",
+  "/failure-analysis/page": "app/failure-analysis/page.js",
+  "/fleet-management/page": "app/fleet-management/page.js",
+  "/failure-prediction-engine/page": "app/failure-prediction-engine/page.js",
+  "/guide-to-ai-for-mining/page": "app/guide-to-ai-for-mining/page.js",
+  "/about/page": "app/about/page.js",
+  "/enterprise/page": "app/enterprise/page.js",
+  "/mining-operations/page": "app/mining-operations/page.js",
+  "/ml-model-training/page": "app/ml-model-training/page.js",
+  "/page": "app/page.js",
+  "/predictive-maintenance/page": "app/predictive-maintenance/page.js",
+  "/products/page": "app/products/page.js",
+  "/safety-analytics/page": "app/safety-analytics/page.js",
+  "/safety-monitoring-system/page": "app/safety-monitoring-system/page.js",
+  "/predictive-maintenance-platform/page": "app/predictive-maintenance-platform/page.js",
+  "/terms/page": "app/terms/page.js",
+  "/solutions/page": "app/solutions/page.js",
+  "/privacy/page": "app/privacy/page.js"
+}
