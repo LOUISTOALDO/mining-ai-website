@@ -175,7 +175,7 @@ export default function HomePage() {
                 <ArrowRight style={{width: '1rem', height: '1rem', marginLeft: '0.5rem'}} />
               </Link>
               <a 
-                href="https://mining-ai-platform-dashboard-p5tc.vercel.app/"
+                href="https://mining-ai-platform-dashboard.vercel.app/"
                 style={{color: '#e5e7eb', fontSize: '0.9rem', fontWeight: '500', textDecoration: 'none'}}
               >
                 Sign In
