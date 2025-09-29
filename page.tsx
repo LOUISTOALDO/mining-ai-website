@@ -200,9 +200,9 @@ export default function HomePage() {
             
             {/* Left Content */}
             <div>
-              <h1 style={{fontSize: '3.5rem', fontWeight: '800', lineHeight: '1.1', color: '#ffffff', marginBottom: '1.5rem', letterSpacing: '-0.02em'}}>
-                <span style={{display: 'block', color: '#3b82f6'}}>Predictive Maintenance</span>
-                <span style={{display: 'block'}}>for Mining Operations</span>
+              <h1 style={{fontSize: '3.5rem', fontWeight: '800', lineHeight: '1.1', color: '#ff6b35', marginBottom: '1.5rem', letterSpacing: '-0.02em'}}>
+                <span style={{display: 'block', color: '#ff6b35'}}>Predictive Maintenance</span>
+                <span style={{display: 'block', color: '#ff6b35'}}>for Mining Operations</span>
               </h1>
               
               <p style={{fontSize: '1.25rem', color: '#d1d5db', lineHeight: '1.6', marginBottom: '2rem', fontWeight: '400'}}>
@@ -781,7 +781,7 @@ export default function HomePage() {
       </section>
 
       {/* How it Works Section - Simple Flow */}
-      <section style={{padding: '8rem 0', backgroundColor: '#111111'}}>
+      <section style={{padding: '8rem 0', backgroundColor: '#000000'}}>
         <div style={{maxWidth: '1200px', margin: '0 auto', padding: '0 2rem'}}>
           <div style={{textAlign: 'center', marginBottom: '6rem'}}>
             <h2 style={{
