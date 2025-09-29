@@ -1,0 +1,179 @@
+{
+  "pages": {
+    "/_not-found": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/app/_not-found-08599d93bab64856.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/css/ea32fc00bf1b5e77.css",
+      "static/chunks/app/layout-b31968f0c443997f.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/app/contact/page-3a8031d38ea1c2d2.js"
+    ],
+    "/equipment-monitoring/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/equipment-monitoring/page-719a922cbebe0f31.js"
+    ],
+    "/equipment-health-analytics/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/equipment-health-analytics/page-558aff53bf189b75.js"
+    ],
+    "/failure-analysis/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/failure-analysis/page-c237319c2e3e362c.js"
+    ],
+    "/fleet-management/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/fleet-management/page-5015b48f9679f793.js"
+    ],
+    "/failure-prediction-engine/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/failure-prediction-engine/page-8b5eaeb571792a76.js"
+    ],
+    "/guide-to-ai-for-mining/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/guide-to-ai-for-mining/page-a59b83c21f622122.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/about/page-7a61ef4bbcb86700.js"
+    ],
+    "/enterprise/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/enterprise/page-384d14669f8ae0ea.js"
+    ],
+    "/mining-operations/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/mining-operations/page-597762cb436c1a57.js"
+    ],
+    "/ml-model-training/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/ml-model-training/page-c6e6dbb2489ca290.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/page-03a59992d099f489.js"
+    ],
+    "/predictive-maintenance/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/predictive-maintenance/page-0569cb30320e72c6.js"
+    ],
+    "/products/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/products/page-c30cc1bcc5f1bf3a.js"
+    ],
+    "/safety-analytics/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/safety-analytics/page-9d365833d8d5a3be.js"
+    ],
+    "/safety-monitoring-system/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/safety-monitoring-system/page-ab0715a2ad7ed0fd.js"
+    ],
+    "/predictive-maintenance-platform/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/223-9285063cf0b45e1f.js",
+      "static/chunks/app/predictive-maintenance-platform/page-ba037ccc3d121a20.js"
+    ],
+    "/terms/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/terms/page-488abfa22dadb8b0.js"
+    ],
+    "/solutions/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/solutions/page-6f22fe254fe53d7b.js"
+    ],
+    "/privacy/page": [
+      "static/chunks/webpack-20a744dabf06a4b7.js",
+      "static/chunks/fd9d1056-a0c76284e27c8afa.js",
+      "static/chunks/472-58ce117204ad16f9.js",
+      "static/chunks/main-app-de7fbf116ca36fa6.js",
+      "static/chunks/176-f9524e33d7468144.js",
+      "static/chunks/app/privacy/page-0c70d1e6e5bc373e.js"
+    ]
+  }
+}
