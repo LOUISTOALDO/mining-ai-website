@@ -818,7 +818,7 @@ export default function HomePage() {
             </p>
           </div>
         </div>
-      </footer>
+      </section>
 
       {/* How it Works Section - Simple Flow */}
       <section style={{padding: '8rem 0', backgroundColor: '#000000'}}>
@@ -932,6 +932,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+    </div>
+    </>)
+  }
     </div>
     </>
   )
