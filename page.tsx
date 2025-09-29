@@ -780,9 +780,8 @@ export default function HomePage() {
         </div>
       </section>
 
-
       {/* How it Works Section - Simple Flow */}
-      <section style={{padding: '8rem 0', backgroundColor: '#000000'}}>
+      <section style={{padding: '8rem 0', backgroundColor: '#111111'}}>
         <div style={{maxWidth: '1200px', margin: '0 auto', padding: '0 2rem'}}>
           <div style={{textAlign: 'center', marginBottom: '6rem'}}>
             <h2 style={{
@@ -931,7 +930,7 @@ export default function HomePage() {
             </p>
           </div>
         </div>
-      </section>
+      </footer>
     </div>
     </>
   )
