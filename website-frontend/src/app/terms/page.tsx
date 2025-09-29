@@ -345,19 +345,21 @@ export default function TermsPage() {
                 button.style.zIndex = 'auto';
               }}
               onMouseDown={(e) => {
-                e.target.style.border = 'none';
-                e.target.style.borderRadius = '2rem';
-                e.target.style.transform = 'scale(0.95)';
-                e.target.style.background = 'linear-gradient(135deg, #3b82f6, #8b5cf6)';
-                e.target.style.boxShadow = '0 8px 32px rgba(59, 130, 246, 0.4)';
+                const target = e.target as HTMLElement;
+                target.style.border = 'none';
+                target.style.borderRadius = '2rem';
+                target.style.transform = 'scale(0.95)';
+                target.style.background = 'linear-gradient(135deg, #3b82f6, #8b5cf6)';
+                target.style.boxShadow = '0 8px 32px rgba(59, 130, 246, 0.4)';
               }}
               onMouseUp={(e) => {
-                e.target.style.border = '1px solid #374151';
-                e.target.style.borderRadius = '0.5rem';
-                e.target.style.transform = 'scale(1)';
-                e.target.style.background = '#1a1a1a';
-                e.target.style.boxShadow = '0 4px 16px rgba(0, 0, 0, 0.3)';
-                e.target.style.animation = 'none';
+                const target = e.target as HTMLElement;
+                target.style.border = '1px solid #374151';
+                target.style.borderRadius = '0.5rem';
+                target.style.transform = 'scale(1)';
+                target.style.background = '#1a1a1a';
+                target.style.boxShadow = '0 4px 16px rgba(0, 0, 0, 0.3)';
+                target.style.animation = 'none';
               }}
             >
               Get Started

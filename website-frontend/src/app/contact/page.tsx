@@ -241,8 +241,14 @@ export default function ContactPage() {
                         outline: 'none',
                         transition: 'border-color 0.2s'
                       }}
-                      onFocus={(e) => e.target.style.borderColor = '#3b82f6'}
-                      onBlur={(e) => e.target.style.borderColor = '#374151'}
+                      onFocus={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#3b82f6';
+                      }}
+                      onBlur={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#374151';
+                      }}
                     />
                   </div>
                   
@@ -267,8 +273,14 @@ export default function ContactPage() {
                         outline: 'none',
                         transition: 'border-color 0.2s'
                       }}
-                      onFocus={(e) => e.target.style.borderColor = '#3b82f6'}
-                      onBlur={(e) => e.target.style.borderColor = '#374151'}
+                      onFocus={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#3b82f6';
+                      }}
+                      onBlur={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#374151';
+                      }}
                     />
                   </div>
                 </div>
@@ -294,8 +306,14 @@ export default function ContactPage() {
                         outline: 'none',
                         transition: 'border-color 0.2s'
                       }}
-                      onFocus={(e) => e.target.style.borderColor = '#3b82f6'}
-                      onBlur={(e) => e.target.style.borderColor = '#374151'}
+                      onFocus={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#3b82f6';
+                      }}
+                      onBlur={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#374151';
+                      }}
                     />
                   </div>
                   
@@ -319,8 +337,14 @@ export default function ContactPage() {
                         outline: 'none',
                         transition: 'border-color 0.2s'
                       }}
-                      onFocus={(e) => e.target.style.borderColor = '#3b82f6'}
-                      onBlur={(e) => e.target.style.borderColor = '#374151'}
+                      onFocus={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#3b82f6';
+                      }}
+                      onBlur={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#374151';
+                      }}
                     />
                   </div>
                 </div>
@@ -350,8 +374,14 @@ export default function ContactPage() {
                       backgroundSize: '1.5em 1.5em',
                       minHeight: '3.25rem'
                     }}
-                    onFocus={(e) => e.target.style.borderColor = '#3b82f6'}
-                    onBlur={(e) => e.target.style.borderColor = '#374151'}
+                    onFocus={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#3b82f6';
+                      }}
+                    onBlur={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#374151';
+                      }}
                   >
                     <option value="general" style={{backgroundColor: '#111111', color: '#ffffff'}}>General Inquiry</option>
                     <option value="demo" style={{backgroundColor: '#111111', color: '#ffffff'}}>Request Demo</option>
@@ -383,8 +413,14 @@ export default function ContactPage() {
                       outline: 'none',
                       transition: 'border-color 0.2s'
                     }}
-                    onFocus={(e) => e.target.style.borderColor = '#3b82f6'}
-                    onBlur={(e) => e.target.style.borderColor = '#374151'}
+                    onFocus={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#3b82f6';
+                      }}
+                    onBlur={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#374151';
+                      }}
                   />
                 </div>
 
@@ -411,8 +447,14 @@ export default function ContactPage() {
                       resize: 'vertical',
                       fontFamily: 'inherit'
                     }}
-                    onFocus={(e) => e.target.style.borderColor = '#3b82f6'}
-                    onBlur={(e) => e.target.style.borderColor = '#374151'}
+                    onFocus={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#3b82f6';
+                      }}
+                    onBlur={(e) => {
+                        const target = e.target as HTMLElement;
+                        target.style.borderColor = '#374151';
+                      }}
                     placeholder="Tell us about your mining operations and how we can help..."
                   />
                 </div>
@@ -541,20 +583,22 @@ export default function ContactPage() {
                   }}
                   onMouseDown={(e) => {
                     if (isSubmitting) return;
-                    e.target.style.border = 'none';
-                    e.target.style.borderRadius = '2rem';
-                    e.target.style.transform = 'scale(0.95)';
-                    e.target.style.background = 'linear-gradient(135deg, #3b82f6, #8b5cf6)';
-                    e.target.style.boxShadow = '0 8px 32px rgba(59, 130, 246, 0.4)';
+                    const target = e.target as HTMLElement;
+                    target.style.border = 'none';
+                    target.style.borderRadius = '2rem';
+                    target.style.transform = 'scale(0.95)';
+                    target.style.background = 'linear-gradient(135deg, #3b82f6, #8b5cf6)';
+                    target.style.boxShadow = '0 8px 32px rgba(59, 130, 246, 0.4)';
                   }}
                   onMouseUp={(e) => {
                     if (isSubmitting) return;
-                    e.target.style.border = '1px solid #374151';
-                    e.target.style.borderRadius = '0.5rem';
-                    e.target.style.transform = 'scale(1)';
-                    e.target.style.background = '#1a1a1a';
-                    e.target.style.boxShadow = '0 4px 16px rgba(0, 0, 0, 0.3)';
-                    e.target.style.animation = 'none';
+                    const target = e.target as HTMLElement;
+                    target.style.border = '1px solid #374151';
+                    target.style.borderRadius = '0.5rem';
+                    target.style.transform = 'scale(1)';
+                    target.style.background = '#1a1a1a';
+                    target.style.boxShadow = '0 4px 16px rgba(0, 0, 0, 0.3)';
+                    target.style.animation = 'none';
                   }}
                 >
                   {isSubmitting ? (

@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowRight, Menu, X, CheckCircle, Star, Users, Zap } from "lucide-react"
+import { ArrowRight, Menu, X, CheckCircle, Star, Users, Zap, Database, Brain, AlertTriangle } from "lucide-react"
 import { useState, useRef, useEffect } from "react"
 import Link from "next/link"
 
@@ -32,6 +32,12 @@ const buttonStyles = `
     0% { transform: scale(1); opacity: 0.8; }
     50% { transform: scale(1.2); opacity: 1; }
     100% { transform: scale(1); opacity: 0.8; }
+  }
+
+  @keyframes arrowFlow {
+    0% { transform: translateX(0px); opacity: 0.7; }
+    50% { transform: translateX(4px); opacity: 1; }
+    100% { transform: translateX(0px); opacity: 0.7; }
   }
 
   @keyframes floatParticle1 {
@@ -175,7 +181,9 @@ export default function HomePage() {
                 <ArrowRight size={16} className="ml-2" />
               </Link>
               <a 
-                href="https://cfe80a043ef6.ngrok-free.app?logout=true"
+                href="https://mining-ai-platform-dashboard.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{color: '#e5e7eb', fontSize: '0.9rem', fontWeight: '500', textDecoration: 'none'}}
               >
                 Sign In
@@ -300,19 +308,21 @@ export default function HomePage() {
                   button.style.zIndex = 'auto';
                 }}
                 onMouseDown={(e) => {
-                  e.target.style.border = 'none';
-                  e.target.style.borderRadius = '2rem';
-                  e.target.style.transform = 'scale(0.95)';
-                  e.target.style.background = 'linear-gradient(135deg, #3b82f6, #8b5cf6)';
-                  e.target.style.boxShadow = '0 8px 32px rgba(59, 130, 246, 0.4)';
+                  const target = e.target as HTMLElement;
+                  target.style.border = 'none';
+                  target.style.borderRadius = '2rem';
+                  target.style.transform = 'scale(0.95)';
+                  target.style.background = 'linear-gradient(135deg, #3b82f6, #8b5cf6)';
+                  target.style.boxShadow = '0 8px 32px rgba(59, 130, 246, 0.4)';
                 }}
                 onMouseUp={(e) => {
-                  e.target.style.border = '1px solid #374151';
-                  e.target.style.borderRadius = '0.5rem';
-                  e.target.style.transform = 'scale(1)';
-                  e.target.style.background = '#1a1a1a';
-                  e.target.style.boxShadow = '0 4px 16px rgba(0, 0, 0, 0.3)';
-                  e.target.style.animation = 'none';
+                  const target = e.target as HTMLElement;
+                  target.style.border = '1px solid #374151';
+                  target.style.borderRadius = '0.5rem';
+                  target.style.transform = 'scale(1)';
+                  target.style.background = '#1a1a1a';
+                  target.style.boxShadow = '0 4px 16px rgba(0, 0, 0, 0.3)';
+                  target.style.animation = 'none';
                 }}
                 onClick={() => window.location.href = '/contact'}>
                   Get Started
@@ -772,6 +782,118 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* How it Works Section - Simple Flow */}
+      <section style={{padding: '8rem 0', backgroundColor: '#000000'}}>
+        <div style={{maxWidth: '1200px', margin: '0 auto', padding: '0 2rem'}}>
+          <div style={{textAlign: 'center', marginBottom: '6rem'}}>
+            <h2 style={{
+              fontSize: '2.5rem',
+              fontWeight: '700',
+              marginBottom: '1.5rem',
+              color: '#ffffff',
+              letterSpacing: '-0.02em'
+            }}>
+              How it works
+            </h2>
+            <p style={{
+              fontSize: '1.125rem',
+              color: '#9ca3af',
+              maxWidth: '600px',
+              margin: '0 auto',
+              lineHeight: '1.6'
+            }}>
+              Simple, powerful AI-driven process from data to action
+            </p>
+          </div>
+          
+          {/* Simple Flow */}
+          <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem'}}>
+            {[
+              {
+                title: 'Collect Data',
+                description: 'IoT sensors gather real-time equipment data',
+                icon: <Database size={32} style={{color: '#89b6cd'}} />,
+                color: '#89b6cd',
+                delay: '0s'
+              },
+              {
+                title: 'AI Analysis',
+                description: 'Machine learning detects patterns and anomalies',
+                icon: <Brain size={32} style={{color: '#e1c8e8'}} />,
+                color: '#e1c8e8',
+                delay: '0.2s'
+              },
+              {
+                title: 'Smart Alerts',
+                description: 'Get instant notifications with recommended actions',
+                icon: <AlertTriangle size={32} style={{color: '#ffffff'}} />,
+                color: '#ffffff',
+                delay: '0.4s'
+              }
+            ].map((step, index) => (
+              <div key={index} style={{display: 'flex', alignItems: 'center', gap: '1.5rem'}}>
+                {/* Step Card */}
+                <div 
+                  className="flow-card"
+                  style={{
+                    backgroundColor: '#111111',
+                    padding: '2rem',
+                    borderRadius: '1rem',
+                    border: '1px solid #333333',
+                    textAlign: 'center',
+                    width: '220px',
+                    flexShrink: 0,
+                    cursor: 'pointer',
+                    transition: 'all 0.3s ease',
+                    boxShadow: `0 4px 16px ${step.color}20`
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-8px) scale(1.02)'
+                    e.currentTarget.style.boxShadow = `0 12px 40px ${step.color}30`
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0px) scale(1)'
+                    e.currentTarget.style.boxShadow = `0 4px 16px ${step.color}20`
+                  }}
+                >
+                  <div style={{
+                    marginBottom: '1rem'
+                  }}>
+                    {step.icon}
+                  </div>
+                  <h3 style={{
+                    fontSize: '1.125rem',
+                    fontWeight: '700',
+                    color: '#ffffff',
+                    marginBottom: '0.5rem'
+                  }}>
+                    {step.title}
+                  </h3>
+                  <p style={{
+                    color: '#9ca3af',
+                    fontSize: '0.875rem',
+                    lineHeight: '1.5'
+                  }}>
+                    {step.description}
+                  </p>
+                </div>
+                
+                {/* Arrow (except for last item) */}
+                {index < 2 && (
+                  <ArrowRight 
+                    size={24} 
+                    style={{
+                      color: '#89b6cd', 
+                      flexShrink: 0,
+                      animation: `arrowFlow 2s ease-in-out infinite ${step.delay}`
+                    }} 
+                  />
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer style={{backgroundColor: '#111111', padding: '3rem 0', borderTop: '1px solid #2a2a2a'}}>
