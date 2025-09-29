@@ -200,7 +200,7 @@ export default function HomePage() {
             
             {/* Left Content */}
             <div>
-              <h1 style={{fontSize: '3.5rem', fontWeight: '800', lineHeight: '1.1', color: '#ff6b35', marginBottom: '1.5rem', letterSpacing: '-0.02em'}}>
+              <h1 style={{fontSize: '3.5rem', fontWeight: '800', lineHeight: '1.1', color: '#FFA500', marginBottom: '1.5rem', letterSpacing: '-0.02em'}}>
                 <span style={{display: 'block', color: '#ff6b35'}}>Predictive Maintenance</span>
                 <span style={{display: 'block', color: '#ff6b35'}}>for Mining Operations</span>
               </h1>
@@ -935,3 +935,4 @@ export default function HomePage() {
     </>
   )
 }
+
