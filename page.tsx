@@ -781,45 +781,6 @@ export default function HomePage() {
       </section>
 
 
-      {/* Footer */}
-      <footer style={{backgroundColor: '#111111', padding: '3rem 0', borderTop: '1px solid #2a2a2a'}}>
-        <div style={{maxWidth: '1200px', margin: '0 auto', padding: '0 2rem'}}>
-          <div style={{display: 'flex', justifyContent: 'flex-start', marginBottom: '2rem'}}>
-            <div style={{marginRight: '6rem'}}>
-              <h4 style={{fontSize: '0.875rem', fontWeight: '700', color: '#ffffff', marginBottom: '1rem', letterSpacing: '0.05em'}}>COMPANY</h4>
-              <ul style={{listStyle: 'none', padding: 0}}>
-                <li style={{marginBottom: '0.75rem'}}><Link href="/about" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>About</Link></li>
-                <li style={{marginBottom: '0.75rem'}}><Link href="/terms" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Terms</Link></li>
-                <li style={{marginBottom: '0.75rem'}}><Link href="/privacy" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Privacy</Link></li>
-              </ul>
-            </div>
-            <div style={{marginRight: '6rem'}}>
-              <h4 style={{fontSize: '0.875rem', fontWeight: '700', color: '#ffffff', marginBottom: '1rem', letterSpacing: '0.05em'}}>GUIDES</h4>
-              <ul style={{listStyle: 'none', padding: 0}}>
-                <li style={{marginBottom: '0.75rem'}}><Link href="/predictive-maintenance" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Predictive Maintenance</Link></li>
-                <li style={{marginBottom: '0.75rem'}}><Link href="/ml-model-training" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>ML Model Training</Link></li>
-                <li style={{marginBottom: '0.75rem'}}><Link href="/equipment-monitoring" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Equipment Monitoring</Link></li>
-                <li style={{marginBottom: '0.75rem'}}><Link href="/failure-analysis" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Failure Analysis</Link></li>
-                <li style={{marginBottom: '0.75rem'}}><Link href="/guide-to-ai-for-mining" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Guide to AI for Mining</Link></li>
-                <li style={{marginBottom: '0.75rem'}}><Link href="/fleet-management" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Fleet Management</Link></li>
-                <li style={{marginBottom: '0.75rem'}}><Link href="/safety-analytics" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Safety Analytics</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 style={{fontSize: '0.875rem', fontWeight: '700', color: '#ffffff', marginBottom: '1rem', letterSpacing: '0.05em'}}>RESOURCES</h4>
-              <ul style={{listStyle: 'none', padding: 0}}>
-                <li style={{marginBottom: '0.75rem'}}><Link href="/contact" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Contact Us</Link></li>
-              </ul>
-            </div>
-          </div>
-          <div style={{borderTop: '1px solid #2a2a2a', paddingTop: '2rem', textAlign: 'center'}}>
-            <p style={{color: '#6b7280', fontSize: '0.875rem'}}>
-              © 2025 Elysium. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* How it Works Section - Simple Flow */}
       <section style={{padding: '8rem 0', backgroundColor: '#000000'}}>
         <div style={{maxWidth: '1200px', margin: '0 auto', padding: '0 2rem'}}>
@@ -932,9 +893,45 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-    </div>
-    </>)
-  }
+
+      {/* Footer */}
+      <footer style={{backgroundColor: '#111111', padding: '3rem 0', borderTop: '1px solid #2a2a2a'}}>
+        <div style={{maxWidth: '1200px', margin: '0 auto', padding: '0 2rem'}}>
+          <div style={{display: 'flex', justifyContent: 'flex-start', marginBottom: '2rem'}}>
+            <div style={{marginRight: '6rem'}}>
+              <h4 style={{fontSize: '0.875rem', fontWeight: '700', color: '#ffffff', marginBottom: '1rem', letterSpacing: '0.05em'}}>COMPANY</h4>
+              <ul style={{listStyle: 'none', padding: 0}}>
+                <li style={{marginBottom: '0.75rem'}}><Link href="/about" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>About</Link></li>
+                <li style={{marginBottom: '0.75rem'}}><Link href="/terms" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Terms</Link></li>
+                <li style={{marginBottom: '0.75rem'}}><Link href="/privacy" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Privacy</Link></li>
+              </ul>
+            </div>
+            <div style={{marginRight: '6rem'}}>
+              <h4 style={{fontSize: '0.875rem', fontWeight: '700', color: '#ffffff', marginBottom: '1rem', letterSpacing: '0.05em'}}>GUIDES</h4>
+              <ul style={{listStyle: 'none', padding: 0}}>
+                <li style={{marginBottom: '0.75rem'}}><Link href="/predictive-maintenance" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Predictive Maintenance</Link></li>
+                <li style={{marginBottom: '0.75rem'}}><Link href="/ml-model-training" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>ML Model Training</Link></li>
+                <li style={{marginBottom: '0.75rem'}}><Link href="/equipment-monitoring" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Equipment Monitoring</Link></li>
+                <li style={{marginBottom: '0.75rem'}}><Link href="/failure-analysis" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Failure Analysis</Link></li>
+                <li style={{marginBottom: '0.75rem'}}><Link href="/guide-to-ai-for-mining" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Guide to AI for Mining</Link></li>
+                <li style={{marginBottom: '0.75rem'}}><Link href="/fleet-management" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Fleet Management</Link></li>
+                <li style={{marginBottom: '0.75rem'}}><Link href="/safety-analytics" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Safety Analytics</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 style={{fontSize: '0.875rem', fontWeight: '700', color: '#ffffff', marginBottom: '1rem', letterSpacing: '0.05em'}}>RESOURCES</h4>
+              <ul style={{listStyle: 'none', padding: 0}}>
+                <li style={{marginBottom: '0.75rem'}}><Link href="/contact" style={{color: '#9ca3af', textDecoration: 'none', fontSize: '0.875rem'}}>Contact Us</Link></li>
+              </ul>
+            </div>
+          </div>
+          <div style={{borderTop: '1px solid #2a2a2a', paddingTop: '2rem', textAlign: 'center'}}>
+            <p style={{color: '#6b7280', fontSize: '0.875rem'}}>
+              © 2025 Elysium. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
     </>
   )
